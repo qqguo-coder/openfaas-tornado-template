@@ -1,0 +1,2 @@
+language: py3tornado
+fprocess: supervisord -c /etc/supervisor/supervisord.conf

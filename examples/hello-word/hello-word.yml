@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: 127.0.0.1:8080
+functions:
+  hello-word:
+    lang: py3tornado
+    handler: ./function
+    image: hello-word:latest
